@@ -26,8 +26,6 @@ public class fbSteps {
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 		driver.manage().deleteAllCookies();
 		driver.get("https://www.facebook.com/reg");
-		
-		System.out.println("TC 1 Confict issue");
 	}
 
 	@When("user enter valid firstname, lastname , username and password")

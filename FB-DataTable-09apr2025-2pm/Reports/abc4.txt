@@ -1,0 +1,11 @@
+
+@Regression
+Scenario: Test Register Page Functionality                          # AllFeatureFiles/FbDataDrivenDataTable.feature:4
+  Given user is on register page                                    # FBDatatableSteps.fbSteps.user_is_on_register_page()
+  When user enter valid firstname, lastname , username and password # FBDatatableSteps.fbSteps.user_enter_valid_firstname_lastname_username_password(io.cucumber.datatable.DataTable)
+    | Sonali | Khalate | khalatesonali@gmail.com | khalatesonali@123 |
+  And user select valid DOB                                         # FBDatatableSteps.fbSteps.user_select_valid_DOB(io.cucumber.datatable.DataTable)
+    | 14 | Mar | 2024 |
+  And user select the gender                                        # FBDatatableSteps.fbSteps.user_select_the_gender(io.cucumber.datatable.DataTable)
+    | gender |
+    | Female |
