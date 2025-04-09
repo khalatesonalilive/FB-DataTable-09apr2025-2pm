@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="10.931" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Test Facebook Application" name="Test Register Page Functionality" time="10.748">
+<system-out><![CDATA[
+Given user is on register page..............................................passed
+When user enter valid firstname, lastname , username and password...........passed
+And user select valid DOB...................................................passed
+And user select the gender..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
